@@ -95,16 +95,13 @@ ul.navbar-nav > .active> a:hover{
     color:#fff;
 }
 .feature_content:hover i,.feature_content:hover  h5{
-      color: #EE3B24!important;
 }
 #isotope-filter a.active,#isotope-filter a:hover,#isotope-filter a:focus{
-    background: #EE3B24;
 }
 .feature-icon{
     color: #EE3B24;
 }
 #isotope-filter a{
-background: #000;
 }
 
 /*Pricing
