@@ -2600,7 +2600,7 @@ iframe{
     color: #fff!important;
 }
 #about-details {
-    background: url('../images/banner/banner.jpg')fixed 50% 50%;
+    background: rgba(12, 50, 100, 0.7)
 }
 
 .single-progress .progress{
