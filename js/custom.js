@@ -97,7 +97,7 @@ jQuery(function($) {
       var $filter = $('#isotope-filter');
       // Initialize isotope 
       $container.isotope({
-          filter: '*',
+          filter: '.why',
           layoutMode: 'fitRows',
           animationOptions: {
               duration: 750,
