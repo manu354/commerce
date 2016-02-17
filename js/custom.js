@@ -118,7 +118,11 @@ jQuery(function($) {
               }
           });
           return false;
-      }); 
+      });
+    $("#isotope-filter a i").on("click", function(){
+        $("#isotope-filter").find(".active").removeClass("active");
+        $(this).parent().addClass("active");
+    });
 
 
   // Portfolio Isotope
