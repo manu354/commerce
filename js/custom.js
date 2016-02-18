@@ -86,7 +86,7 @@ jQuery(function($) {
 
   $('#slider_part').carousel({
     pause: true,
-    interval: 100000,
+    interval: 4000,
   });
 
   /* ----------------------------------------------------------- */
