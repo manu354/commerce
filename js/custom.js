@@ -16,24 +16,24 @@
   6. Skills
   7. BX slider
       a. Blog Slider
-      b. Portfolio item slider
+      b. overview item slider
   8. Isotope
   9. Animation (wow)
   10. Flickr
-  
+
 */
 
 
 jQuery(function($) {
   "use strict";
  $.noConflict();
-     $('.nav a').on('click', function(){ 
+     $('.nav a').on('click', function(){
         if($('.navbar-toggle').css('display') !='none'){
             $(".navbar-toggle").trigger( "click" );
         }
     });
 
-   
+
 //  Navigation scrolling
 
       $('a.page-scroll').click(function() {
@@ -49,10 +49,10 @@ jQuery(function($) {
           }
         });
 
-   
 
 
- 
+
+
   // accordian
   $('.accordion-toggle').on('click', function(){
     $(this).closest('.panel-group').children().each(function(){
@@ -62,13 +62,13 @@ jQuery(function($) {
     $(this).closest('.panel-heading').toggleClass('active');
   });
 
- 
+
  /* ----------------------------------------------------------- */
 /*  BX slider
 /* ----------------------------------------------------------- */
 
-      //Portfolio item and blog slider
-    
+      //overview item and blog slider
+
 /*Smooth Scroll*/
       smoothScroll.init({
           speed: 400,
@@ -77,7 +77,7 @@ jQuery(function($) {
           updateURL: true,
           callbackBefore: function ( toggle, anchor ) {},
           callbackAfter: function ( toggle, anchor ) {}
-        }); 
+        });
 
 
   /* ----------------------------------------------------------- */
@@ -90,12 +90,12 @@ jQuery(function($) {
   });
 
   /* ----------------------------------------------------------- */
- /*ISotope Portfolio
- /* ----------------------------------------------------------- */   
-    
-      var $container = $('.portfolio-wrap');
+ /*ISotope overview
+ /* ----------------------------------------------------------- */
+
+      var $container = $('.overview-wrap');
       var $filter = $('#isotope-filter');
-      // Initialize isotope 
+      // Initialize isotope
       $container.isotope({
           filter: '.why',
           layoutMode: 'fitRows',
@@ -125,16 +125,16 @@ jQuery(function($) {
     });
 
 
-  // Portfolio Isotope
-    
-    
-    var container = $('.portfolio-wrap'); 
-    
-      function splitColumns() { 
-        var winWidth = $(window).width(), 
+  // overview Isotope
+
+
+    var container = $('.overview-wrap');
+
+      function splitColumns() {
+        var winWidth = $(window).width(),
           columnNumb = 1;
-        
-        
+
+
         if (winWidth > 1024) {
           columnNumb = 4;
         } else if (winWidth > 900) {
@@ -144,16 +144,16 @@ jQuery(function($) {
         } else if (winWidth < 479) {
           columnNumb = 1;
         }
-        
+
         return columnNumb;
-      }   
-      
-      function setColumns() { 
-        var winWidth = $(window).width(), 
-          columnNumb = splitColumns(), 
+      }
+
+      function setColumns() {
+        var winWidth = $(window).width(),
+          columnNumb = splitColumns(),
           postWidth = Math.floor(winWidth / columnNumb);
-        
-        container.find('.portfolio-box').each(function () { 
+
+        container.find('.overview-box').each(function () {
           $(this).css( { 
             width : postWidth + 'px' 
           });
