@@ -287,10 +287,8 @@ jQuery(function($) {
 
 // prettyphoto
 
- $("a[data-rel^='prettyPhoto']").prettyPhoto();
- 
+
     
- 
 
 
 /* ==============================================
