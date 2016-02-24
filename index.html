@@ -70,7 +70,7 @@
                 <li class="active"><a href="#slider_part" class="page-scroll">Home </a></li>
                 <li><a href="#stats" class="page-scroll">statistics</a></li>
                 <li><a href="#overview" class="page-scroll">Overview</a></li>
-                <li><a href="#client" class="page-scroll">Plans & Services </a></li>
+                <li><a href="#team" class="page-scroll">Plans & Services </a></li>
             </ul>
         </nav>
     </div>
@@ -160,7 +160,13 @@
 
                         <p>Do you need a new phone just because you have a cracked screen? Or just because its a year
                             old? Do you even need a phone if you have an ipad?</p>
-                        <button class="btn btn-main"> Read More</button>
+                        <div class="isotope-script isotope-filter">
+                            <a data-filter=".why"  href="#overview" class="page-scroll" id="why" style = "all : unset;">
+
+                                <button class="btn btn-main"> Read More</button>
+
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-xs-12 col-sm-6">
@@ -170,7 +176,13 @@
 
                         <p>How much money do you have? Is it worth paying an extra $300 dollars for a better phone?
                             Remember you don't need to get the most expensive phone! </p>
-                        <button class="btn btn-main"> Read More</button>
+                        <div class="isotope-script isotope-filter">
+                            <a data-filter=".budget"  href="#overview" class="page-scroll" id="budget" style = "all : unset;">
+
+                                <button class="btn btn-main"> Read More</button>
+
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <!-- Col-md-4 Single_feature End -->
@@ -181,7 +193,13 @@
 
                         <p>Sped some time researching the phone you want to buy! Don't get the iphone just because all
                             your friends have it. Find out about services and refuunds. </p>
-                        <button class="btn btn-main"> Read More</button>
+                        <div class="isotope-script isotope-filter" style="all: initial;">
+                            <a data-filter=".research"  href="#overview" class="page-scroll" id="research" style = "all : unset;">
+
+                                <button class="btn btn-main"> Read More</button>
+
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <!-- Col-md-4 Single_feature End -->
@@ -192,7 +210,13 @@
 
                         <p>How are you going to pay for your phone? Are you going to buy it on the internet or in a
                             store? Take into account the repairs and refunds.</p>
-                        <button class="btn btn-main"> Read More</button>
+                        <div class="isotope-script isotope-filter">
+                            <a data-filter=".buy"  href="#overview" class="page-scroll" id="buy" style = "all : unset;">
+
+                                <button class="btn btn-main"> Read More</button>
+
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <!-- Col-md-4 Single_feature End -->
@@ -301,11 +325,11 @@
     </div>
 
 
-    <div id="isotope-filter" class="skew3 text-center">
-        <a data-filter=".why" href="#" class="icon active"><i class="fa fa-lightbulb-o"></i></a>
-        <a data-filter=".budget" href="#" class="icon"><i class="fa fa-money"></i></a>
-        <a data-filter=".research" href="#" class="icon"><i class="fa fa-search"></i></a>
-        <a data-filter=".buy" href="#" class="icon"><i class="fa fa-credit-card"></i></a>
+    <div class="skew3 text-center isotope-filter">
+        <a data-filter=".why" href="#" class="icon active why"><i class="fa fa-lightbulb-o"></i></a>
+        <a data-filter=".budget" href="#" class="icon budget"><i class="fa fa-money"></i></a>
+        <a data-filter=".research" href="#" class="icon research"><i class="fa fa-search"></i></a>
+        <a data-filter=".buy" href="#" class="icon buy"><i class="fa fa-credit-card"></i></a>
     </div>
     <div class="row">
         <div class="container">

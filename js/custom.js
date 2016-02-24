@@ -94,7 +94,7 @@ jQuery(function($) {
  /* ----------------------------------------------------------- */
 
       var $container = $('.overview-wrap');
-      var $filter = $('#isotope-filter');
+      var $filter = $('.isotope-filter');
       // Initialize isotope
       $container.isotope({
           filter: '.why',
@@ -119,10 +119,26 @@ jQuery(function($) {
           });
           return false;
       });
-    $("#isotope-filter a i").on("click", function(){
-        $("#isotope-filter").find(".active").removeClass("active");
+    $(".isotope-filter a i").on("click", function(){
+        $(".isotope-filter").find(".active").removeClass("active");
         $(this).parent().addClass("active");
+        console.log(this)
+
     });
+
+    $(".isotope-script a").on("click", function(){
+        var classe= this.id;
+        $(".isotope-filter").find(".active").removeClass("active");
+        $(".isotope-filter a." + classe).addClass("active");
+    });
+
+    $('.isotope-script').attr('style','');
+    console.log("F")
+    //$(".isotope-filter div a ").on("click", function(){
+    //    $(".isotope-filter").find(".active").removeClass("active");
+    //    $(this).parent().addClass("active");
+    //    console.log("HGFH")
+    //});
 
 
   // overview Isotope

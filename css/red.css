@@ -96,12 +96,8 @@ ul.navbar-nav > .active> a:hover{
 }
 .feature_content:hover i,.feature_content:hover  h5{
 }
-#isotope-filter a.active,#isotope-filter a:hover,#isotope-filter a:focus{
-}
 .feature-icon{
     color: #EE3B24;
-}
-#isotope-filter a{
 }
 
 /*Pricing
@@ -152,12 +148,6 @@ ul.navbar-nav > .active> a:hover{
 figcaption .links a:hover{
     background: #222;
     color: #EE3B24;
-}
-#isotope-filter a{
-    color:#959595;
-}
-#isotope-filter a.active,#isotope-filter a:hover,#isotope-filter a:focus{
-    color:#fff!important;
 }
 .feature-content{
     color: #222;
