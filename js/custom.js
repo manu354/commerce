@@ -297,7 +297,7 @@ jQuery(function($) {
     // jQuery(document).ready(function( $ ) {
         $('.counter').counterUp({
             delay: 100,
-            time: 2000
+            time: 3000
         });
     // }); 
 
