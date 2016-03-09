@@ -23,6 +23,9 @@
 
 */
 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    alert("This website may not function properly on mobile devices")
+}
 
 jQuery(function($) {
   "use strict";
