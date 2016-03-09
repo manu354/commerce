@@ -499,6 +499,7 @@ ul.navbar-nav > .active > a{
     height: 850px;
     position: relative;
     width: 100%;
+    background : rgb(0, 0,0);
 }
 
 .overlay-slide img{
@@ -507,6 +508,7 @@ ul.navbar-nav > .active > a{
     height: auto;*/
     width: 100%;
     display: block;
+    background : rgb(0, 0,0);
 }
 
 /*-- Animation --*/
